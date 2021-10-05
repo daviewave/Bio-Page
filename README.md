@@ -9,6 +9,5 @@ This is a web page of my basic biography with links to my:
     * Twitter Handle
     * Resume
 ## Files
-index.html
-style.css
-
+ * index.html
+ * style.css
