@@ -1,38 +1,98 @@
-
-*{
-    background-color: blue;
+ *{
+    border:solid 1px red;
 }
 
-#bio{
-    color: orange;
+body{
+    margin: 0;
+    background-color: lightgreen;
+    border: 5px solid black;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    border: 10px double blue;
+}
+
+header nav{
+    position: relative;
+    height: 55px;
+    background-color: green;
+    border: 5px solid black;
+}
+
+header nav ul{
+    position: absolute;
+    right: 30px;
+    font-size: 22px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+header nav li{
+    display: inline;
+    margin: 0 15px;
+    border: 5px solid black;
+    background-color: yellow;
+}
+
+#content{
+    width: 60%;
+    margin: 0 auto;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(224, 57, 57);
+    border: 2px solid black;
+}
+
+#content h1{
+    text-align: center;
+    border: 2px solid black;
+    background-color: cyan;
     font-size: 50px;
 }
-
-#name{
-    color: red;
+#content p{
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
+    font-family: cursive;
+    border: 2px solid green;
+    background-color: lightgreen;
+    font-size: 20px;
 }
 
-#selfie{
-    border: 10px solid yellow;
-    border-style: groove;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#contact h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 42px;
 }
 
 #contact{
-    text-align: left;
+    text-align: center;
+    background-color: rgb(255, 72, 0);
 }
 
-.textbox {
-    font-size: 26px;
-    width: 200;
-    height: 120px;
-    text-align: center;
-    background-color: red;
+#contact form{
+    width: 40%;
+    margin: 0 auto;
+    border: 2px solid black;
 }
+
+#contact input,
+#contact button{
+    display: block;
+    margin: 15px auto;
+}
+
+footer{
+    height: 100px;
+    text-align: center;
+    border: 5px solid black;
+    font-size: 20px;
+    font-family: fantasy;
+    background-color: green;
+}
+
+main{
+    border: 5px solid black;
+}
+
