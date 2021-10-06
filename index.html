@@ -3,61 +3,56 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Student Bio</title>
+    <title>David Silveira Portfolio</title>
     <link href="style.css" rel = "stylesheet">
   </head>
 
   <body>
-    <!-- TODO: Write Your Code Below-->
-    <header>
-      <h1 id="bio">
-        Student Bio
-      </h1>
-      <h2 id="name">
-        David Silveira
-      </h2>
-    </header>
-
-    <section>
-      <img id="selfie" src="./assests/IMG_1535.JPG" alt="Picture of me" height="400px" width="350px"/>
-
-      <p class="textbox">
-        My name is David Silveira, I recently graduated from the university of Massachusetts Amherst in the Spring of 2021. I graduated with a bachelors of science degree in psychology with a focus on Neuroscience. In college I took several computer science classes working with the programming languages Java, JavaScript, C, and R.        I am from a small town just outside Boston, Massachusetts called Wilmington. I love to watch and play sports and my favorites are soccer and hockey. 
-      </p>
-    </section>
 
     <header>
-      <h1 id="contact">Contact Info</h1>
+      <nav>
+          <ul>
+            <li><a href="https://github.com/daviewave">Github</a></li>
+            <li><a href="">Porfolio</a></li>
+            <li><a href="https://docs.google.com/document/d/1CBqOAz6AMIzMtT5ljXDiooHUrnwJx8iV/edit?usp=sharing&ouid=111953404474422350581&rtpof=true&sd=true">Resumé</a></li>
+          </ul>  
+        </nav>
     </header>
 
-    <section>
-      <ul>
-        <li>
-          <strong>Email:</strong>
-          <a href="https://mail.google.com/mail/u/?authuser=daviewave@gmail.com">daviewave@gmail.com</a>
-        </li>
-        <li>
-          <strong>Phone: </strong>617-459-5248
-        </li>
-        <li>
-          <strong>Github:</strong>
-          <a href="https://github.com/daviewave">Github.com/daviewave</a>
+    <main>
+        <section id="content">
+          <!-- This will be the picture + description section -->
+          <h1>David Silveira's New Website</h1>
+          <img src="./assests/IMG_1535.JPG" alt="Picture of me" height="400px" width="350px"/>
 
-        </li>
-        <li>
-          <strong>Portfolio:</strong>
-          <a href="#">Link to Portfolio</a>
-        </li>
-        <li>
-          <strong>Twitter:</strong>
-          <a href="https://twitter.com/DavidSilveira_3">DavidSilveira_3</a>
-        </li>
-        <li>
-          <strong>Resumé:</strong>
-          <a href="https://docs.google.com/document/d/1CBqOAz6AMIzMtT5ljXDiooHUrnwJx8iV/edit?usp=sharing&ouid=111953404474422350581&rtpof=true&sd=true">David Silveira Resumé</a>
-        </li>
-    </ul>
-    </section>
+          <p class="textbox">
+            My name is David Silveira, I recently graduated from the university of Massachusetts Amherst in the Spring of 2021. I graduated with a bachelors of science degree in psychology with a focus on Neuroscience. In college I took several computer science classes working with the programming languages Java, JavaScript, C, and R.
+          </p>
+          <p class="textbox">
+            I am from a small town just outside Boston, Massachusetts called Wilmington. I love to watch and play sports and my favorites are soccer and hockey. I am also super into crypto, more specifically ethereum and the basic attention token. The basic attention token is associated with the Brave Browser and was created by the same person who created JavaScript.
+          </p>
+        </section>
+
+
+        <section id="contact">
+          <!-- This will be the contact information section -->
+          <h2 id="contact">Contact Me</h1>
+            <form>
+              <input name ="name" 
+              type="text"
+              placeholder="name">
+              <input email ="email" 
+              type="text"
+              placeholder="email">
+              <button>Send</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        Copyright 2021 David Silveira's New Website
+    </footer>
 
   </body>
 
